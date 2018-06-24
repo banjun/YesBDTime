@@ -7,21 +7,18 @@
 //
 
 import Cocoa
+import YesBDTime
 
 class ViewController: NSViewController {
+    let ybt = YesBDTime()
 
-  override func viewDidLoad() {
-    super.viewDidLoad()
+    override func viewDidLoad() {
+        super.viewDidLoad()
 
-    // Do any additional setup after loading the view.
-  }
-
-  override var representedObject: Any? {
-    didSet {
-    // Update the view, if already loaded.
+        ybt.callback = { t in
+            NSLog("%@", "BD Time = \(t)")
+        }
+        ybt.capture(repeatedlyWith: 1)
     }
-  }
-
-
 }
 

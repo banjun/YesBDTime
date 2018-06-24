@@ -27,3 +27,4 @@ banjun, banjun@gmail.com
 ## License
 
 YesBDTime is available under the MIT license. See the LICENSE file for more info.
+MNIST coreml model is authored by Philipp Gabriel and is available under the MIT license. <https://github.com/likedan/Awesome-CoreML-Models>

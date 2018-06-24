@@ -1,0 +1,16 @@
+PODS:
+  - YesBDTime (0.1.0)
+
+DEPENDENCIES:
+  - YesBDTime (from `../`)
+
+EXTERNAL SOURCES:
+  YesBDTime:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YesBDTime: 6a2bb85c7c442810b0c8e69c6362ccf18a920c52
+
+PODFILE CHECKSUM: f480b11337e5e01b74efc800ad5ac1354974ed72
+
+COCOAPODS: 1.5.3
