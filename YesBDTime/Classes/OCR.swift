@@ -25,7 +25,7 @@ internal func ocr(image: NSImage, callback: @escaping (TimeInterval) -> (), debu
                         height: size.height), operation: .copy, fraction: 1)
                     image.unlockFocus()
 
-                    let prediction = try MNIST().prediction(input: MNISTInput(image: image.pixelBuffer()!))
+                    let prediction = try BDDigitsClassifier().prediction(input: BDDigitsClassifierInput(image: image.pixelBuffer(width: 227, height: 227)!))
                     //                        NSLog("%@", "\(prediction.classLabel)   \(prediction.prediction[prediction.classLabel])")
                     return (CGRect(x: box.topLeft.x,
                                    y: box.topLeft.y,
@@ -33,7 +33,7 @@ internal func ocr(image: NSImage, callback: @escaping (TimeInterval) -> (), debu
                                    height: abs(box.bottomRight.y - box.topLeft.y))
                         .applying(CGAffineTransform(scaleX: sourceImage.size.width, y: sourceImage.size.height)),
                             image,
-                            prediction.classLabel)
+                            Int64(prediction.label)!)
             }
 
             let prefixedReversedDigits = Array(([0] + results.map {$0.2}).reversed())
@@ -56,16 +56,14 @@ internal func ocr(image: NSImage, callback: @escaping (TimeInterval) -> (), debu
 
 // https://gist.github.com/DennisWeidmann/7c4b4bb72062bd1a40c714aa5d95a0d7
 extension NSImage {
-    func pixelBuffer() -> CVPixelBuffer? {
-        let width = self.size.width
-        let height = self.size.height
+    func pixelBuffer(width: CGFloat, height: CGFloat) -> CVPixelBuffer? {
         let attrs = [kCVPixelBufferCGImageCompatibilityKey: kCFBooleanTrue,
                      kCVPixelBufferCGBitmapContextCompatibilityKey: kCFBooleanTrue] as CFDictionary
         var pixelBuffer: CVPixelBuffer?
         let status = CVPixelBufferCreate(kCFAllocatorDefault,
                                          Int(width),
                                          Int(height),
-                                         kCVPixelFormatType_OneComponent8,
+                                         kCVPixelFormatType_32ARGB,
                                          attrs,
                                          &pixelBuffer)
 
@@ -76,17 +74,17 @@ extension NSImage {
         CVPixelBufferLockBaseAddress(resultPixelBuffer, CVPixelBufferLockFlags(rawValue: 0))
         let pixelData = CVPixelBufferGetBaseAddress(resultPixelBuffer)
 
-        let colorspace = CGColorSpaceCreateDeviceGray()
+        let colorspace = CGColorSpaceCreateDeviceRGB()
         guard let context = CGContext(data: pixelData,
                                       width: Int(width),
                                       height: Int(height),
                                       bitsPerComponent: 8,
                                       bytesPerRow: CVPixelBufferGetBytesPerRow(resultPixelBuffer),
                                       space: colorspace,
-                                      bitmapInfo: CGImageAlphaInfo.none.rawValue) else {return nil}
+                                      bitmapInfo: CGImageAlphaInfo.noneSkipFirst.rawValue) else {return nil}
 
-        //        context.translateBy(x: 0, y: height)
-        //        context.scaleBy(x: 1.0, y: -1.0)
+//                context.translateBy(x: 0, y: CGFloat(height))
+//                context.scaleBy(x: 1.0, y: -1.0)
 
         let graphicsContext = NSGraphicsContext(cgContext: context, flipped: false)
         NSGraphicsContext.saveGraphicsState()

@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05A1980C9DC1CEE65224BDA4CCF71415 /* BDDigitsClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DE44FDE39A66AD10430A74B436B925D9 /* BDDigitsClassifier.mlmodel */; };
+		182CA846A7898404889C5A71ECAE0806 /* YesBDTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFF40C60B06782F3B433FF50310D68A /* YesBDTime.swift */; };
 		218C563C127CA329C51D30F1504B34B8 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0495F6C5905B660714BD46BA5281CA4 /* Error.swift */; };
 		25FDE817E89F31B722F3F3501FBB5443 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC47EF3BDD0935CD5326BA1796F0D7ED /* Cocoa.framework */; };
+		2B7F2960AAD2AFCF149124C0F5CC3944 /* MNIST.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7049129381083CE4B6FDAAFEA7584E32 /* MNIST.mlmodel */; };
 		3694545DA633184651B2A13D24AD36D1 /* FootlessParser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 135E93C704F41CA712BB8D39EB4B08E5 /* FootlessParser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3BEB48ED8E5E59120E403630045133AE /* VFL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0539B632789C5696D6F4422368015555 /* VFL.swift */; };
 		3C824AAD47DD1B4E9653FBB883288578 /* VFLSyntax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854768F199A84EA8E57976C9B488BC5D /* VFLSyntax.swift */; };
 		429827F0CE1E8D9E5DDF76A3C53A6B21 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC47EF3BDD0935CD5326BA1796F0D7ED /* Cocoa.framework */; };
-		42C65CDC404C38C10ED2E07408833AA5 /* TargetWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BE0E34061556AD3AA098C5BEED90D3 /* TargetWindow.swift */; };
 		5679B7449F93DFFAB88F3E56E02E8A4A /* Parsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA795787256F180ABCD766365BCF1C0 /* Parsers.swift */; };
 		6C4703BC7103FB9E244BDB7810B7B2F2 /* FootlessParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7735F44F755DEB738A94EDF7C8DB3459 /* FootlessParser.framework */; };
 		71015FA498F02B91065BA59B160FAA82 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9871B6CE120F07DE415474C56F30B643 /* Parser.swift */; };
@@ -22,15 +24,14 @@
 		84F742B9A656D57C804ED429BAB3CD1A /* FootlessParser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E9B38BB27EA67F08D7A2FCC770A2E5 /* FootlessParser-dummy.m */; };
 		8650589654010D4EDDFD7441180A8B38 /* StringParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4C18D4B895C43FEBFE59F0A8C0C40B /* StringParser.swift */; };
 		8946E8AED36136A3BA901326FE3985B6 /* NorthLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B79AF8F2ED05E8DE02E66436DD6A94B /* NorthLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8BE9198E3040844F42D7DCBA0595F387 /* YesBDTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E9E00A01AAFE3306119D80D16A5938 /* YesBDTime.swift */; };
 		90E737D46CF39B06FCC7E1820BAF62AF /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A44A3950ACF87EBE91890AA07F702D /* AppKit.framework */; };
 		916F3D0F2227B8606CE76BCAED2DD772 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC47EF3BDD0935CD5326BA1796F0D7ED /* Cocoa.framework */; };
-		91879A76B83553B65797F904A306F8C9 /* MNIST.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C109B36C4420427B947227EBC40B20D2 /* MNIST.mlmodel */; };
 		A14604E61296413D6D3DF4D497EC369B /* Pods-YesBDTime_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1302922AC171FBAF8D4F0C6CE8516947 /* Pods-YesBDTime_Tests-dummy.m */; };
+		A59CC75BF35DA542FC3067222A7F23FD /* OCR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9C0C2E6CB5E21162DAB3D248E4F858 /* OCR.swift */; };
 		A61F14FEA460569404901468E0040F53 /* Converters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41560E2D54B30298215FDA448D1C0DE /* Converters.swift */; };
-		BDC5587D8848339109771C7F297AA2FE /* OCR.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92DB46D9A944516116BB9E924B26DEB /* OCR.swift */; };
 		BF3E0BFEEF9B93EC0824F90FA1106275 /* Pods-YesBDTime_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2E7DCAEC59BF709F9726AF153E9C8B /* Pods-YesBDTime_Example-dummy.m */; };
-		C207879D202DB6731B4B49D23E78E4B7 /* YesBDTime-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C026B4CDCBEEDE3A8D68FE276CB4FC6F /* YesBDTime-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C207879D202DB6731B4B49D23E78E4B7 /* YesBDTime-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 554BAD92684ABC1A78658AB401D6B57A /* YesBDTime-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7CCCCB433A8091D39C67C0FBD66808B /* TargetWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED423CCA4433AE0BC1C754B1BF8A506 /* TargetWindow.swift */; };
 		C94C5C05C90C501E180B166F4E94072E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC47EF3BDD0935CD5326BA1796F0D7ED /* Cocoa.framework */; };
 		CC3B72D33341100538364E2A4E20C0A2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC47EF3BDD0935CD5326BA1796F0D7ED /* Cocoa.framework */; };
 		D38A0B8117A934F8D7F617C7F2B9BA06 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BF3A622813959BD71C2E78E3D2D0FC /* Extensions.swift */; };
@@ -40,7 +41,7 @@
 		E99C01600F0C142683ABCBB3D4AC3FE2 /* ※ikemen-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E79DC8F80CB8942DFD1ABA8CD6B9FA4E /* ※ikemen-dummy.m */; };
 		EF51E97FC9124894BBDDC4016C68FA5D /* ※ikemen-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9A29BA8998F3B16318DE77319B761BD /* ※ikemen-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F0CF770305C89D07CD455A17B9AA2798 /* Parser+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07411B20B70FB154AA9281A24E9D465F /* Parser+Operators.swift */; };
-		F3300BD655C8B7F398C1DD7C0526B638 /* YesBDTime-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6A01285F2EC8CD452B081FD1CCE066 /* YesBDTime-dummy.m */; };
+		F7CE157FB64B5D715093A34916978134 /* YesBDTime-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 311B23E2423AEDC0CA16319DAC2B0E6F /* YesBDTime-dummy.m */; };
 		F9395AACECF6102CB1E5BD151D86917F /* Pods-YesBDTime_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98808AC7E55FEC6A6CB3F06926736550 /* Pods-YesBDTime_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -94,19 +95,19 @@
 		07411B20B70FB154AA9281A24E9D465F /* Parser+Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Parser+Operators.swift"; path = "Sources/Parser+Operators.swift"; sourceTree = "<group>"; };
 		1302922AC171FBAF8D4F0C6CE8516947 /* Pods-YesBDTime_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YesBDTime_Tests-dummy.m"; sourceTree = "<group>"; };
 		135E93C704F41CA712BB8D39EB4B08E5 /* FootlessParser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FootlessParser-umbrella.h"; sourceTree = "<group>"; };
-		16DFCB31F1C4EF6C6CCE70381B1DB537 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		19323DFB5A464A9E1929DA10C2EF9BFA /* ※ikemen.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "※ikemen.xcconfig"; sourceTree = "<group>"; };
 		1DD12D50034509A27ECF169131B2F502 /* Ikemen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Ikemen.framework; path = "※ikemen.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E61454705529575C48A844A9FE58089 /* YesBDTime.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = YesBDTime.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2070BA55656F4F9D7C6C7ED687C72C2C /* Pods-YesBDTime_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YesBDTime_Tests-umbrella.h"; sourceTree = "<group>"; };
 		21773791AC056C0FCD067C9D7DDDDB62 /* ※ikemen-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "※ikemen-prefix.pch"; sourceTree = "<group>"; };
 		239227E4DDB99A21F431ED8ADC39F526 /* NorthLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NorthLayout.xcconfig; sourceTree = "<group>"; };
 		26348CD99712D47C0A12938A9EF6EC02 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26ABA32BFE03EBE3C536FBAA30A5FC68 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		2786E2D123A0B62D4AB27C9252C37EA6 /* NorthLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NorthLayout.swift; path = Classes/NorthLayout.swift; sourceTree = "<group>"; };
 		294ECF44ACF46E0A3B0807619CCE97FC /* NorthLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NorthLayout.modulemap; sourceTree = "<group>"; };
-		29E9E00A01AAFE3306119D80D16A5938 /* YesBDTime.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = YesBDTime.swift; sourceTree = "<group>"; };
+		311B23E2423AEDC0CA16319DAC2B0E6F /* YesBDTime-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YesBDTime-dummy.m"; sourceTree = "<group>"; };
 		31C8B0474F4B1F8BC4BB76F022C95136 /* ※ikemen.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "※ikemen.modulemap"; sourceTree = "<group>"; };
 		3276F16CE6CBDC084D071624900D8452 /* Pods-YesBDTime_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YesBDTime_Example-resources.sh"; sourceTree = "<group>"; };
+		340243710BA9DD0A7D940B084DBC7028 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		34BA09D312D36B945DFBFBC66A04F2D2 /* NorthLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NorthLayout-dummy.m"; sourceTree = "<group>"; };
 		35F20020105BA163A75E531306216F30 /* Pods-YesBDTime_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YesBDTime_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3F5FB6FBC2DEBF510D0167DC24D86BB8 /* Pods-YesBDTime_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YesBDTime_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -114,22 +115,24 @@
 		442C529B5EBD71FC60A1032333A3229C /* Pods-YesBDTime_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YesBDTime_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		45A44A3950ACF87EBE91890AA07F702D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
 		4B2E7DCAEC59BF709F9726AF153E9C8B /* Pods-YesBDTime_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YesBDTime_Example-dummy.m"; sourceTree = "<group>"; };
-		4E6B8D6D497942812FBD3888445084B5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		50BE0E34061556AD3AA098C5BEED90D3 /* TargetWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TargetWindow.swift; sourceTree = "<group>"; };
-		5821C5AEF1CA2D785E39D4A19E866577 /* YesBDTime-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YesBDTime-prefix.pch"; sourceTree = "<group>"; };
+		554BAD92684ABC1A78658AB401D6B57A /* YesBDTime-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YesBDTime-umbrella.h"; sourceTree = "<group>"; };
 		5B79AF8F2ED05E8DE02E66436DD6A94B /* NorthLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NorthLayout-umbrella.h"; sourceTree = "<group>"; };
 		5BF56E4FDD044CDC6C9DC38E9697DBA4 /* FootlessParser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FootlessParser-prefix.pch"; sourceTree = "<group>"; };
 		5E961F09431808E9C039C43E3A6E1620 /* FootlessParser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FootlessParser.modulemap; sourceTree = "<group>"; };
 		69A743F2D391FD90417D115B5F9FF88C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		69BBA27433421C41735FC88BBEC78202 /* YesBDTime.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YesBDTime.xcconfig; sourceTree = "<group>"; };
+		6C9C0C2E6CB5E21162DAB3D248E4F858 /* OCR.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OCR.swift; sourceTree = "<group>"; };
+		7049129381083CE4B6FDAAFEA7584E32 /* MNIST.mlmodel */ = {isa = PBXFileReference; includeInIndex = 1; name = MNIST.mlmodel; path = YesBDTime/MNIST.mlmodel; sourceTree = "<group>"; };
 		7579FA4309A2427387C6AD84A4C4ABA2 /* NorthLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NorthLayout-prefix.pch"; sourceTree = "<group>"; };
 		7735F44F755DEB738A94EDF7C8DB3459 /* FootlessParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FootlessParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		783694A48D46952E12C030C818A18128 /* Pods_YesBDTime_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YesBDTime_Example.framework; path = "Pods-YesBDTime_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80E9B38BB27EA67F08D7A2FCC770A2E5 /* FootlessParser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FootlessParser-dummy.m"; sourceTree = "<group>"; };
 		854768F199A84EA8E57976C9B488BC5D /* VFLSyntax.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VFLSyntax.swift; path = Classes/VFLSyntax.swift; sourceTree = "<group>"; };
+		864037C99FFAF4DAD0C6E2AE022C9F92 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88ECEEF08F07A59A7EE45A956099F21B /* ※ikemen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "※ikemen.swift"; path = "Pod/Classes/※ikemen.swift"; sourceTree = "<group>"; };
 		8A95942E0CDD3687342DA17CF66B43FB /* Pods-YesBDTime_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YesBDTime_Example.modulemap"; sourceTree = "<group>"; };
-		8B6A01285F2EC8CD452B081FD1CCE066 /* YesBDTime-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YesBDTime-dummy.m"; sourceTree = "<group>"; };
+		8B44D9AD0935AF0275D64E03FFD01CC9 /* YesBDTime-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YesBDTime-prefix.pch"; sourceTree = "<group>"; };
+		8BFF40C60B06782F3B433FF50310D68A /* YesBDTime.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = YesBDTime.swift; sourceTree = "<group>"; };
+		8ED423CCA4433AE0BC1C754B1BF8A506 /* TargetWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TargetWindow.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9673956077E63EF81E2D5D4DAEED4C9D /* Pods-YesBDTime_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YesBDTime_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		9685303AF951898B3E738BCA84E86B7A /* NorthLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NorthLayout.framework; path = NorthLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -138,27 +141,26 @@
 		9A2814B4881FE7BA4A9D8330D8D663EC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0A72A6A044A281FF4D3F44D29B80C88 /* Pods-YesBDTime_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YesBDTime_Tests.modulemap"; sourceTree = "<group>"; };
 		A0CF6119B87FCCD2E20A985C018BD87D /* FootlessParser.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FootlessParser.xcconfig; sourceTree = "<group>"; };
-		AA62A11467DD524025EB3F91EB5B6FD9 /* YesBDTime.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YesBDTime.modulemap; sourceTree = "<group>"; };
+		A1BE88DD6EA0A7374E9A932CE69D09EC /* YesBDTime.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YesBDTime.modulemap; sourceTree = "<group>"; };
 		AEA795787256F180ABCD766365BCF1C0 /* Parsers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parsers.swift; path = Sources/Parsers.swift; sourceTree = "<group>"; };
 		B79AEA76BE6E2883DA4738C256574B04 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC47EF3BDD0935CD5326BA1796F0D7ED /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
-		C026B4CDCBEEDE3A8D68FE276CB4FC6F /* YesBDTime-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YesBDTime-umbrella.h"; sourceTree = "<group>"; };
 		C0495F6C5905B660714BD46BA5281CA4 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Sources/Error.swift; sourceTree = "<group>"; };
-		C109B36C4420427B947227EBC40B20D2 /* MNIST.mlmodel */ = {isa = PBXFileReference; includeInIndex = 1; name = MNIST.mlmodel; path = YesBDTime/MNIST.mlmodel; sourceTree = "<group>"; };
 		C2BF3A622813959BD71C2E78E3D2D0FC /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Sources/Extensions.swift; sourceTree = "<group>"; };
+		C3855BAC70E6B4972121CC36F09BE911 /* YesBDTime.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = YesBDTime.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C52373678FD887475142C325E1F3F058 /* Pods-YesBDTime_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YesBDTime_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C5814F9D83845AE9B47DCB3777C8AA79 /* Pods_YesBDTime_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YesBDTime_Tests.framework; path = "Pods-YesBDTime_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA4332F67BB563BCD8623E6B6A796318 /* Pods-YesBDTime_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YesBDTime_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		CF8BF1E0C4D1B183B97EED9FA7F72FE7 /* Pods-YesBDTime_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YesBDTime_Tests-resources.sh"; sourceTree = "<group>"; };
+		D034221FA87A01D251D1FEFEAC8D617A /* YesBDTime.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YesBDTime.xcconfig; sourceTree = "<group>"; };
 		D2BBB88BE34398CD54D72CA97C9FA324 /* Pods-YesBDTime_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YesBDTime_Example-frameworks.sh"; sourceTree = "<group>"; };
 		D93FD1E0E69C01B30C1F3DB64E767F54 /* FootlessParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FootlessParser.framework; path = FootlessParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE44FDE39A66AD10430A74B436B925D9 /* BDDigitsClassifier.mlmodel */ = {isa = PBXFileReference; includeInIndex = 1; name = BDDigitsClassifier.mlmodel; path = YesBDTime/BDDigitsClassifier.mlmodel; sourceTree = "<group>"; };
 		DE4C18D4B895C43FEBFE59F0A8C0C40B /* StringParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringParser.swift; path = Sources/StringParser.swift; sourceTree = "<group>"; };
 		DF1BA29B961A925BA661F13398167589 /* YesBDTime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YesBDTime.framework; path = YesBDTime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A273D465888499F3E2F4ABFE2227B1 /* Pods-YesBDTime_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YesBDTime_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E79DC8F80CB8942DFD1ABA8CD6B9FA4E /* ※ikemen-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "※ikemen-dummy.m"; sourceTree = "<group>"; };
-		E92DB46D9A944516116BB9E924B26DEB /* OCR.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OCR.swift; sourceTree = "<group>"; };
 		EAA59B646C152F460C3F531868630428 /* Pods-YesBDTime_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YesBDTime_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F28AD9646CE40E1696DD11F03C7F5238 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F41560E2D54B30298215FDA448D1C0DE /* Converters.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Converters.swift; path = Sources/Converters.swift; sourceTree = "<group>"; };
 		F59D4FC795B1A0B664A97246354EA7B9 /* Pods-YesBDTime_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YesBDTime_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F9A29BA8998F3B16318DE77319B761BD /* ※ikemen-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "※ikemen-umbrella.h"; sourceTree = "<group>"; };
@@ -241,12 +243,12 @@
 			name = "OS X";
 			sourceTree = "<group>";
 		};
-		3737CC3F380409477994E5347EB0761C /* Classes */ = {
+		2E9914A2AC76BACCF9E88F8EF2DCED6D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E92DB46D9A944516116BB9E924B26DEB /* OCR.swift */,
-				50BE0E34061556AD3AA098C5BEED90D3 /* TargetWindow.swift */,
-				29E9E00A01AAFE3306119D80D16A5938 /* YesBDTime.swift */,
+				6C9C0C2E6CB5E21162DAB3D248E4F858 /* OCR.swift */,
+				8ED423CCA4433AE0BC1C754B1BF8A506 /* TargetWindow.swift */,
+				8BFF40C60B06782F3B433FF50310D68A /* YesBDTime.swift */,
 			);
 			name = Classes;
 			path = YesBDTime/Classes;
@@ -271,12 +273,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		53EBD6160ACFFA12FA96C841B002DE4F /* Pod */ = {
+		59800FC6A452FB60DA7408DBBF791EC5 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				16DFCB31F1C4EF6C6CCE70381B1DB537 /* LICENSE */,
-				4E6B8D6D497942812FBD3888445084B5 /* README.md */,
-				1E61454705529575C48A844A9FE58089 /* YesBDTime.podspec */,
+				340243710BA9DD0A7D940B084DBC7028 /* LICENSE */,
+				26ABA32BFE03EBE3C536FBAA30A5FC68 /* README.md */,
+				C3855BAC70E6B4972121CC36F09BE911 /* YesBDTime.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -298,12 +300,26 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				F01651FF889B622B39D948142DEB5143 /* Development Pods */,
+				A88637BD13441DCD016EF2161B43B093 /* Development Pods */,
 				AD7986115D507C86C2F611AC11F9EED4 /* Frameworks */,
 				A8B1F0883BDF7362D0A191E74720D126 /* Pods */,
 				781B466D0E1E8D8C0DB4924444879653 /* Products */,
 				4BF1D2F390749CF8B3F7431BEFBFDF1A /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8C4400E7BAC0627B4C132C0945801223 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				864037C99FFAF4DAD0C6E2AE022C9F92 /* Info.plist */,
+				A1BE88DD6EA0A7374E9A932CE69D09EC /* YesBDTime.modulemap */,
+				D034221FA87A01D251D1FEFEAC8D617A /* YesBDTime.xcconfig */,
+				311B23E2423AEDC0CA16319DAC2B0E6F /* YesBDTime-dummy.m */,
+				8B44D9AD0935AF0275D64E03FFD01CC9 /* YesBDTime-prefix.pch */,
+				554BAD92684ABC1A78658AB401D6B57A /* YesBDTime-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YesBDTime";
 			sourceTree = "<group>";
 		};
 		9A4EA01E0E5995C7D3AFF285F6DB764F /* Support Files */ = {
@@ -330,6 +346,27 @@
 			);
 			name = NorthLayout;
 			path = NorthLayout;
+			sourceTree = "<group>";
+		};
+		A5290B5BEAD42969065773CF70FB2D71 /* YesBDTime */ = {
+			isa = PBXGroup;
+			children = (
+				DE44FDE39A66AD10430A74B436B925D9 /* BDDigitsClassifier.mlmodel */,
+				7049129381083CE4B6FDAAFEA7584E32 /* MNIST.mlmodel */,
+				2E9914A2AC76BACCF9E88F8EF2DCED6D /* Classes */,
+				59800FC6A452FB60DA7408DBBF791EC5 /* Pod */,
+				8C4400E7BAC0627B4C132C0945801223 /* Support Files */,
+			);
+			name = YesBDTime;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A88637BD13441DCD016EF2161B43B093 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5290B5BEAD42969065773CF70FB2D71 /* YesBDTime */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		A8B1F0883BDF7362D0A191E74720D126 /* Pods */ = {
@@ -365,32 +402,6 @@
 			);
 			name = FootlessParser;
 			path = FootlessParser;
-			sourceTree = "<group>";
-		};
-		C22C0DBC3CF01BCDEB8EA4642E0916B6 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F28AD9646CE40E1696DD11F03C7F5238 /* Info.plist */,
-				AA62A11467DD524025EB3F91EB5B6FD9 /* YesBDTime.modulemap */,
-				69BBA27433421C41735FC88BBEC78202 /* YesBDTime.xcconfig */,
-				8B6A01285F2EC8CD452B081FD1CCE066 /* YesBDTime-dummy.m */,
-				5821C5AEF1CA2D785E39D4A19E866577 /* YesBDTime-prefix.pch */,
-				C026B4CDCBEEDE3A8D68FE276CB4FC6F /* YesBDTime-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/YesBDTime";
-			sourceTree = "<group>";
-		};
-		D12D3253437D0E8FCD4BF481A7FFF88C /* YesBDTime */ = {
-			isa = PBXGroup;
-			children = (
-				C109B36C4420427B947227EBC40B20D2 /* MNIST.mlmodel */,
-				3737CC3F380409477994E5347EB0761C /* Classes */,
-				53EBD6160ACFFA12FA96C841B002DE4F /* Pod */,
-				C22C0DBC3CF01BCDEB8EA4642E0916B6 /* Support Files */,
-			);
-			name = YesBDTime;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		D6F36E2FD6499A5BBC01183B578C7D92 /* Pods-YesBDTime_Tests */ = {
@@ -441,14 +452,6 @@
 			);
 			name = "Pods-YesBDTime_Example";
 			path = "Target Support Files/Pods-YesBDTime_Example";
-			sourceTree = "<group>";
-		};
-		F01651FF889B622B39D948142DEB5143 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D12D3253437D0E8FCD4BF481A7FFF88C /* YesBDTime */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -509,7 +512,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3390077337FB772089DCA45AA34AEBE4 /* Build configuration list for PBXNativeTarget "YesBDTime" */;
 			buildPhases = (
-				89C8402FA394F1EFE55CF19CA406DBEF /* Sources */,
+				A95A6608F3D2B5C703281DAF4B4A0242 /* Sources */,
 				D8F7038E1BF3B3249D1F64D0A5018A6D /* Frameworks */,
 				8650457FD016F9E9C6F62CCF1ACB1677 /* Headers */,
 			);
@@ -696,15 +699,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		89C8402FA394F1EFE55CF19CA406DBEF /* Sources */ = {
+		A95A6608F3D2B5C703281DAF4B4A0242 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91879A76B83553B65797F904A306F8C9 /* MNIST.mlmodel in Sources */,
-				BDC5587D8848339109771C7F297AA2FE /* OCR.swift in Sources */,
-				42C65CDC404C38C10ED2E07408833AA5 /* TargetWindow.swift in Sources */,
-				F3300BD655C8B7F398C1DD7C0526B638 /* YesBDTime-dummy.m in Sources */,
-				8BE9198E3040844F42D7DCBA0595F387 /* YesBDTime.swift in Sources */,
+				05A1980C9DC1CEE65224BDA4CCF71415 /* BDDigitsClassifier.mlmodel in Sources */,
+				2B7F2960AAD2AFCF149124C0F5CC3944 /* MNIST.mlmodel in Sources */,
+				A59CC75BF35DA542FC3067222A7F23FD /* OCR.swift in Sources */,
+				C7CCCCB433A8091D39C67C0FBD66808B /* TargetWindow.swift in Sources */,
+				F7CE157FB64B5D715093A34916978134 /* YesBDTime-dummy.m in Sources */,
+				182CA846A7898404889C5A71ECAE0806 /* YesBDTime.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -857,7 +861,7 @@
 		};
 		2B8AB8E460F6D7AFD7EBC14404E908F0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69BBA27433421C41735FC88BBEC78202 /* YesBDTime.xcconfig */;
+			baseConfigurationReference = D034221FA87A01D251D1FEFEAC8D617A /* YesBDTime.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1127,7 +1131,7 @@
 		};
 		E4587A6D7E5B1DAB08ECADBDF228DD02 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69BBA27433421C41735FC88BBEC78202 /* YesBDTime.xcconfig */;
+			baseConfigurationReference = D034221FA87A01D251D1FEFEAC8D617A /* YesBDTime.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";

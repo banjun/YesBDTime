@@ -35,3 +35,9 @@ Carthage/Build
 # `pod install` in .travis.yml
 #
 # Pods/
+
+# Turi Create
+*.sframe/
+# too large (94MB) and generatable on this repo, but difficult to do so on pod install
+# BDDigitsClassifier.mlmodel
+
