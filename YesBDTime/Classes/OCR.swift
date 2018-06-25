@@ -1,6 +1,7 @@
 import Vision
+import CoreGraphics
 
-internal func ocr(image: NSImage, callback: @escaping (TimeInterval) -> ()) {
+internal func ocr(image: NSImage, callback: @escaping (TimeInterval) -> (), debugCallback: ((NSImage, [(NSRect, NSImage, Int64)]) -> Void)? = nil) {
     let textReq = VNDetectTextRectanglesRequest { req, error in
         guard let observations = req.results as? [VNTextObservation] else { return }
         let characterBoxes = observations.flatMap {$0.characterBoxes ?? []}
@@ -8,9 +9,9 @@ internal func ocr(image: NSImage, callback: @escaping (TimeInterval) -> ()) {
         let sourceImage = image
 
         do {
-            let digits = try characterBoxes
+            let results = try characterBoxes
                 .filter {abs($0.topLeft.y - $0.bottomRight.y) > 0.5}
-                .map { box -> Int64 in
+                .map { box -> (CGRect, NSImage, Int64) in
                     let size = CGSize(width: abs(box.bottomRight.x - box.topLeft.x) * sourceImage.size.width,
                                       height: abs(box.bottomRight.y - box.topLeft.y) * sourceImage.size.height)
                     let image = NSImage(size: CGSize(width: 28, height: 28))
@@ -26,10 +27,16 @@ internal func ocr(image: NSImage, callback: @escaping (TimeInterval) -> ()) {
 
                     let prediction = try MNIST().prediction(input: MNISTInput(image: image.pixelBuffer()!))
                     //                        NSLog("%@", "\(prediction.classLabel)   \(prediction.prediction[prediction.classLabel])")
-                    return prediction.classLabel
+                    return (CGRect(x: box.topLeft.x,
+                                   y: box.topLeft.y,
+                                   width: abs(box.bottomRight.x - box.topLeft.x),
+                                   height: abs(box.bottomRight.y - box.topLeft.y))
+                        .applying(CGAffineTransform(scaleX: sourceImage.size.width, y: sourceImage.size.height)),
+                            image,
+                            prediction.classLabel)
             }
 
-            let prefixedReversedDigits = Array(([0] + digits).reversed())
+            let prefixedReversedDigits = Array(([0] + results.map {$0.2}).reversed())
             let components = stride(from: 0, to: prefixedReversedDigits.count - 1, by: 2)
                 .map {(prefixedReversedDigits[$0 + 1], prefixedReversedDigits[$0])}.reversed()
             //                let positionString: String = components.map {"\($0)\($1)"}.joined(separator: ":")
@@ -39,6 +46,7 @@ internal func ocr(image: NSImage, callback: @escaping (TimeInterval) -> ()) {
                 .map {n, x in pow(60, Double(n)) * Double(x)}
                 .reduce(0, +)
             callback(seconds)
+            debugCallback?(image, results)
         } catch _ {}
     }
     textReq.reportCharacterBoxes = true

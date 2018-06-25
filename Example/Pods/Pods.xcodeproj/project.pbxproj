@@ -7,80 +7,180 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0DD8C33B6F89415445BC44FFF5F08DE8 /* YesBDTime-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C026B4CDCBEEDE3A8D68FE276CB4FC6F /* YesBDTime-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1392121C3A28909BD3CB87BFC8C0F122 /* YesBDTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E9E00A01AAFE3306119D80D16A5938 /* YesBDTime.swift */; };
-		3A9601132849EA381043EF0E4780533B /* MNIST.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C109B36C4420427B947227EBC40B20D2 /* MNIST.mlmodel */; };
-		5B8D32329E697B65719B3DE6EF83D287 /* TargetWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BE0E34061556AD3AA098C5BEED90D3 /* TargetWindow.swift */; };
-		6959D9840508A1FB85C603E9FAB41A9C /* Pods-YesBDTime_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2E7DCAEC59BF709F9726AF153E9C8B /* Pods-YesBDTime_Example-dummy.m */; };
-		7A012B279B99E15F14C5ECC02A90ADA5 /* YesBDTime-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6A01285F2EC8CD452B081FD1CCE066 /* YesBDTime-dummy.m */; };
-		8C4B354125616E8E6F0444AD73B5FA6C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF428FC7C7A6555B2B02D8E238C8D8F2 /* Cocoa.framework */; };
-		916F3D0F2227B8606CE76BCAED2DD772 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF428FC7C7A6555B2B02D8E238C8D8F2 /* Cocoa.framework */; };
-		9B0ABF2E080211771BF3E179702F4CFE /* OCR.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92DB46D9A944516116BB9E924B26DEB /* OCR.swift */; };
+		218C563C127CA329C51D30F1504B34B8 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0495F6C5905B660714BD46BA5281CA4 /* Error.swift */; };
+		25FDE817E89F31B722F3F3501FBB5443 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC47EF3BDD0935CD5326BA1796F0D7ED /* Cocoa.framework */; };
+		3694545DA633184651B2A13D24AD36D1 /* FootlessParser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 135E93C704F41CA712BB8D39EB4B08E5 /* FootlessParser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BEB48ED8E5E59120E403630045133AE /* VFL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0539B632789C5696D6F4422368015555 /* VFL.swift */; };
+		3C824AAD47DD1B4E9653FBB883288578 /* VFLSyntax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854768F199A84EA8E57976C9B488BC5D /* VFLSyntax.swift */; };
+		429827F0CE1E8D9E5DDF76A3C53A6B21 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC47EF3BDD0935CD5326BA1796F0D7ED /* Cocoa.framework */; };
+		42C65CDC404C38C10ED2E07408833AA5 /* TargetWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BE0E34061556AD3AA098C5BEED90D3 /* TargetWindow.swift */; };
+		5679B7449F93DFFAB88F3E56E02E8A4A /* Parsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA795787256F180ABCD766365BCF1C0 /* Parsers.swift */; };
+		6C4703BC7103FB9E244BDB7810B7B2F2 /* FootlessParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7735F44F755DEB738A94EDF7C8DB3459 /* FootlessParser.framework */; };
+		71015FA498F02B91065BA59B160FAA82 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9871B6CE120F07DE415474C56F30B643 /* Parser.swift */; };
+		7160544EF68C0D673357F24856D16FF8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC47EF3BDD0935CD5326BA1796F0D7ED /* Cocoa.framework */; };
+		841E1DC0AEEFD54D592A5BC968378A67 /* ※ikemen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ECEEF08F07A59A7EE45A956099F21B /* ※ikemen.swift */; };
+		84F742B9A656D57C804ED429BAB3CD1A /* FootlessParser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E9B38BB27EA67F08D7A2FCC770A2E5 /* FootlessParser-dummy.m */; };
+		8650589654010D4EDDFD7441180A8B38 /* StringParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4C18D4B895C43FEBFE59F0A8C0C40B /* StringParser.swift */; };
+		8946E8AED36136A3BA901326FE3985B6 /* NorthLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B79AF8F2ED05E8DE02E66436DD6A94B /* NorthLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BE9198E3040844F42D7DCBA0595F387 /* YesBDTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E9E00A01AAFE3306119D80D16A5938 /* YesBDTime.swift */; };
+		90E737D46CF39B06FCC7E1820BAF62AF /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A44A3950ACF87EBE91890AA07F702D /* AppKit.framework */; };
+		916F3D0F2227B8606CE76BCAED2DD772 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC47EF3BDD0935CD5326BA1796F0D7ED /* Cocoa.framework */; };
+		91879A76B83553B65797F904A306F8C9 /* MNIST.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C109B36C4420427B947227EBC40B20D2 /* MNIST.mlmodel */; };
 		A14604E61296413D6D3DF4D497EC369B /* Pods-YesBDTime_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1302922AC171FBAF8D4F0C6CE8516947 /* Pods-YesBDTime_Tests-dummy.m */; };
-		DA5275010F5222DE9AEF8FD9411E67CA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF428FC7C7A6555B2B02D8E238C8D8F2 /* Cocoa.framework */; };
-		E187E2405E4250B0D6261A16E6399372 /* Pods-YesBDTime_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98808AC7E55FEC6A6CB3F06926736550 /* Pods-YesBDTime_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A61F14FEA460569404901468E0040F53 /* Converters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41560E2D54B30298215FDA448D1C0DE /* Converters.swift */; };
+		BDC5587D8848339109771C7F297AA2FE /* OCR.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92DB46D9A944516116BB9E924B26DEB /* OCR.swift */; };
+		BF3E0BFEEF9B93EC0824F90FA1106275 /* Pods-YesBDTime_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2E7DCAEC59BF709F9726AF153E9C8B /* Pods-YesBDTime_Example-dummy.m */; };
+		C207879D202DB6731B4B49D23E78E4B7 /* YesBDTime-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C026B4CDCBEEDE3A8D68FE276CB4FC6F /* YesBDTime-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C94C5C05C90C501E180B166F4E94072E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC47EF3BDD0935CD5326BA1796F0D7ED /* Cocoa.framework */; };
+		CC3B72D33341100538364E2A4E20C0A2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC47EF3BDD0935CD5326BA1796F0D7ED /* Cocoa.framework */; };
+		D38A0B8117A934F8D7F617C7F2B9BA06 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BF3A622813959BD71C2E78E3D2D0FC /* Extensions.swift */; };
+		E0CF6C7339E2A9BEEBED00DA0F1A1EBE /* NorthLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BA09D312D36B945DFBFBC66A04F2D2 /* NorthLayout-dummy.m */; };
 		E5F546E96A452869A83FDE3C3535F6B1 /* Pods-YesBDTime_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2070BA55656F4F9D7C6C7ED687C72C2C /* Pods-YesBDTime_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E98A2DDEA8E3192B2CAEA3B7E9324D35 /* NorthLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2786E2D123A0B62D4AB27C9252C37EA6 /* NorthLayout.swift */; };
+		E99C01600F0C142683ABCBB3D4AC3FE2 /* ※ikemen-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E79DC8F80CB8942DFD1ABA8CD6B9FA4E /* ※ikemen-dummy.m */; };
+		EF51E97FC9124894BBDDC4016C68FA5D /* ※ikemen-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9A29BA8998F3B16318DE77319B761BD /* ※ikemen-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0CF770305C89D07CD455A17B9AA2798 /* Parser+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07411B20B70FB154AA9281A24E9D465F /* Parser+Operators.swift */; };
+		F3300BD655C8B7F398C1DD7C0526B638 /* YesBDTime-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6A01285F2EC8CD452B081FD1CCE066 /* YesBDTime-dummy.m */; };
+		F9395AACECF6102CB1E5BD151D86917F /* Pods-YesBDTime_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98808AC7E55FEC6A6CB3F06926736550 /* Pods-YesBDTime_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		176FBDC7FB6CC7F23AFCA21FAE97E95D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D671F5CDBECD38A7172F35C27C579D8A;
+			remoteInfo = NorthLayout;
+		};
 		35A627DA7BB3F83884F6901796D36A8C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 72B0376CBF879D216B52362171D124E7;
+			remoteGlobalIDString = CD0DA11D65C70689360C1734E766BBDB;
 			remoteInfo = "Pods-YesBDTime_Example";
 		};
-		DF3EEBCA272BCA7106314FC6940D11EF /* PBXContainerItemProxy */ = {
+		4625E7F9D0171D6B54F53CCD3F6EEE43 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C3555392753981C44EA3A30A90C4FC4B;
+			remoteGlobalIDString = 03CB2FA2A794B9723FAA69FED8F6A518;
 			remoteInfo = YesBDTime;
+		};
+		59DF529869865A5D91A1EB0603EBADD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09E6DA3EA133A7B74401F8E518EDE86A;
+			remoteInfo = FootlessParser;
+		};
+		651B2196866C7A2EFFF54F5654DCBCFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09E6DA3EA133A7B74401F8E518EDE86A;
+			remoteInfo = FootlessParser;
+		};
+		69877028176B9F85D15975667D8CE4C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D5FC7CF0468DB9D3C79D05443252DBC;
+			remoteInfo = "※ikemen";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A683E7CACC7BDBE87150031BD35CE3B /* YesBDTime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YesBDTime.framework; path = YesBDTime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0539B632789C5696D6F4422368015555 /* VFL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VFL.swift; path = Classes/VFL.swift; sourceTree = "<group>"; };
+		07411B20B70FB154AA9281A24E9D465F /* Parser+Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Parser+Operators.swift"; path = "Sources/Parser+Operators.swift"; sourceTree = "<group>"; };
 		1302922AC171FBAF8D4F0C6CE8516947 /* Pods-YesBDTime_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YesBDTime_Tests-dummy.m"; sourceTree = "<group>"; };
+		135E93C704F41CA712BB8D39EB4B08E5 /* FootlessParser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FootlessParser-umbrella.h"; sourceTree = "<group>"; };
 		16DFCB31F1C4EF6C6CCE70381B1DB537 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		19323DFB5A464A9E1929DA10C2EF9BFA /* ※ikemen.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "※ikemen.xcconfig"; sourceTree = "<group>"; };
+		1DD12D50034509A27ECF169131B2F502 /* Ikemen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Ikemen.framework; path = "※ikemen.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E61454705529575C48A844A9FE58089 /* YesBDTime.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = YesBDTime.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2070BA55656F4F9D7C6C7ED687C72C2C /* Pods-YesBDTime_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YesBDTime_Tests-umbrella.h"; sourceTree = "<group>"; };
+		21773791AC056C0FCD067C9D7DDDDB62 /* ※ikemen-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "※ikemen-prefix.pch"; sourceTree = "<group>"; };
+		239227E4DDB99A21F431ED8ADC39F526 /* NorthLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NorthLayout.xcconfig; sourceTree = "<group>"; };
+		26348CD99712D47C0A12938A9EF6EC02 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2786E2D123A0B62D4AB27C9252C37EA6 /* NorthLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NorthLayout.swift; path = Classes/NorthLayout.swift; sourceTree = "<group>"; };
+		294ECF44ACF46E0A3B0807619CCE97FC /* NorthLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NorthLayout.modulemap; sourceTree = "<group>"; };
 		29E9E00A01AAFE3306119D80D16A5938 /* YesBDTime.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = YesBDTime.swift; sourceTree = "<group>"; };
+		31C8B0474F4B1F8BC4BB76F022C95136 /* ※ikemen.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "※ikemen.modulemap"; sourceTree = "<group>"; };
 		3276F16CE6CBDC084D071624900D8452 /* Pods-YesBDTime_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YesBDTime_Example-resources.sh"; sourceTree = "<group>"; };
+		34BA09D312D36B945DFBFBC66A04F2D2 /* NorthLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NorthLayout-dummy.m"; sourceTree = "<group>"; };
 		35F20020105BA163A75E531306216F30 /* Pods-YesBDTime_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YesBDTime_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3F5FB6FBC2DEBF510D0167DC24D86BB8 /* Pods-YesBDTime_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YesBDTime_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		442983A268A710A351B5426985CD723E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		442C529B5EBD71FC60A1032333A3229C /* Pods-YesBDTime_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YesBDTime_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		45A44A3950ACF87EBE91890AA07F702D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
 		4B2E7DCAEC59BF709F9726AF153E9C8B /* Pods-YesBDTime_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YesBDTime_Example-dummy.m"; sourceTree = "<group>"; };
-		4CEFE785E652FDA85B947D81441C41DC /* Pods_YesBDTime_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YesBDTime_Example.framework; path = "Pods-YesBDTime_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E6B8D6D497942812FBD3888445084B5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		50BE0E34061556AD3AA098C5BEED90D3 /* TargetWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TargetWindow.swift; sourceTree = "<group>"; };
 		5821C5AEF1CA2D785E39D4A19E866577 /* YesBDTime-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YesBDTime-prefix.pch"; sourceTree = "<group>"; };
-		5D4FE509234508014F5D1604267809C6 /* Pods_YesBDTime_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YesBDTime_Tests.framework; path = "Pods-YesBDTime_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B79AF8F2ED05E8DE02E66436DD6A94B /* NorthLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NorthLayout-umbrella.h"; sourceTree = "<group>"; };
+		5BF56E4FDD044CDC6C9DC38E9697DBA4 /* FootlessParser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FootlessParser-prefix.pch"; sourceTree = "<group>"; };
+		5E961F09431808E9C039C43E3A6E1620 /* FootlessParser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FootlessParser.modulemap; sourceTree = "<group>"; };
 		69A743F2D391FD90417D115B5F9FF88C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69BBA27433421C41735FC88BBEC78202 /* YesBDTime.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YesBDTime.xcconfig; sourceTree = "<group>"; };
+		7579FA4309A2427387C6AD84A4C4ABA2 /* NorthLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NorthLayout-prefix.pch"; sourceTree = "<group>"; };
+		7735F44F755DEB738A94EDF7C8DB3459 /* FootlessParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FootlessParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		783694A48D46952E12C030C818A18128 /* Pods_YesBDTime_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YesBDTime_Example.framework; path = "Pods-YesBDTime_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80E9B38BB27EA67F08D7A2FCC770A2E5 /* FootlessParser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FootlessParser-dummy.m"; sourceTree = "<group>"; };
+		854768F199A84EA8E57976C9B488BC5D /* VFLSyntax.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VFLSyntax.swift; path = Classes/VFLSyntax.swift; sourceTree = "<group>"; };
+		88ECEEF08F07A59A7EE45A956099F21B /* ※ikemen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "※ikemen.swift"; path = "Pod/Classes/※ikemen.swift"; sourceTree = "<group>"; };
 		8A95942E0CDD3687342DA17CF66B43FB /* Pods-YesBDTime_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YesBDTime_Example.modulemap"; sourceTree = "<group>"; };
 		8B6A01285F2EC8CD452B081FD1CCE066 /* YesBDTime-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YesBDTime-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9673956077E63EF81E2D5D4DAEED4C9D /* Pods-YesBDTime_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YesBDTime_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		9685303AF951898B3E738BCA84E86B7A /* NorthLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NorthLayout.framework; path = NorthLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9871B6CE120F07DE415474C56F30B643 /* Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = Sources/Parser.swift; sourceTree = "<group>"; };
 		98808AC7E55FEC6A6CB3F06926736550 /* Pods-YesBDTime_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YesBDTime_Example-umbrella.h"; sourceTree = "<group>"; };
+		9A2814B4881FE7BA4A9D8330D8D663EC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0A72A6A044A281FF4D3F44D29B80C88 /* Pods-YesBDTime_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YesBDTime_Tests.modulemap"; sourceTree = "<group>"; };
+		A0CF6119B87FCCD2E20A985C018BD87D /* FootlessParser.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FootlessParser.xcconfig; sourceTree = "<group>"; };
 		AA62A11467DD524025EB3F91EB5B6FD9 /* YesBDTime.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YesBDTime.modulemap; sourceTree = "<group>"; };
+		AEA795787256F180ABCD766365BCF1C0 /* Parsers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parsers.swift; path = Sources/Parsers.swift; sourceTree = "<group>"; };
+		B79AEA76BE6E2883DA4738C256574B04 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC47EF3BDD0935CD5326BA1796F0D7ED /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		C026B4CDCBEEDE3A8D68FE276CB4FC6F /* YesBDTime-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YesBDTime-umbrella.h"; sourceTree = "<group>"; };
+		C0495F6C5905B660714BD46BA5281CA4 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Sources/Error.swift; sourceTree = "<group>"; };
 		C109B36C4420427B947227EBC40B20D2 /* MNIST.mlmodel */ = {isa = PBXFileReference; includeInIndex = 1; name = MNIST.mlmodel; path = YesBDTime/MNIST.mlmodel; sourceTree = "<group>"; };
+		C2BF3A622813959BD71C2E78E3D2D0FC /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Sources/Extensions.swift; sourceTree = "<group>"; };
 		C52373678FD887475142C325E1F3F058 /* Pods-YesBDTime_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YesBDTime_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C5814F9D83845AE9B47DCB3777C8AA79 /* Pods_YesBDTime_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YesBDTime_Tests.framework; path = "Pods-YesBDTime_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA4332F67BB563BCD8623E6B6A796318 /* Pods-YesBDTime_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YesBDTime_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		CF8BF1E0C4D1B183B97EED9FA7F72FE7 /* Pods-YesBDTime_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YesBDTime_Tests-resources.sh"; sourceTree = "<group>"; };
 		D2BBB88BE34398CD54D72CA97C9FA324 /* Pods-YesBDTime_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YesBDTime_Example-frameworks.sh"; sourceTree = "<group>"; };
-		DF428FC7C7A6555B2B02D8E238C8D8F2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		D93FD1E0E69C01B30C1F3DB64E767F54 /* FootlessParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FootlessParser.framework; path = FootlessParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE4C18D4B895C43FEBFE59F0A8C0C40B /* StringParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringParser.swift; path = Sources/StringParser.swift; sourceTree = "<group>"; };
+		DF1BA29B961A925BA661F13398167589 /* YesBDTime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YesBDTime.framework; path = YesBDTime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A273D465888499F3E2F4ABFE2227B1 /* Pods-YesBDTime_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YesBDTime_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E79DC8F80CB8942DFD1ABA8CD6B9FA4E /* ※ikemen-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "※ikemen-dummy.m"; sourceTree = "<group>"; };
 		E92DB46D9A944516116BB9E924B26DEB /* OCR.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OCR.swift; sourceTree = "<group>"; };
 		EAA59B646C152F460C3F531868630428 /* Pods-YesBDTime_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YesBDTime_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		F28AD9646CE40E1696DD11F03C7F5238 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F41560E2D54B30298215FDA448D1C0DE /* Converters.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Converters.swift; path = Sources/Converters.swift; sourceTree = "<group>"; };
 		F59D4FC795B1A0B664A97246354EA7B9 /* Pods-YesBDTime_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YesBDTime_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F9A29BA8998F3B16318DE77319B761BD /* ※ikemen-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "※ikemen-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1A4EE0FB6194AD91A5308A5F22B23241 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C94C5C05C90C501E180B166F4E94072E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		264A4B1EA365D7F142E76D1ABCCA4FA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3B72D33341100538364E2A4E20C0A2 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5117CB5241AFD60AF86CF6601C39C58E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -89,25 +189,58 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		680D27D2252D7E416E1E0092181743FC /* Frameworks */ = {
+		81AB02E1C5B69B9E6A29E62AA07A1EEC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C4B354125616E8E6F0444AD73B5FA6C /* Cocoa.framework in Frameworks */,
+				25FDE817E89F31B722F3F3501FBB5443 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A22B43F8A21A1ECF2AE7CC35DA31A782 /* Frameworks */ = {
+		C96B2557BEDB1E61F07FA2456570217E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA5275010F5222DE9AEF8FD9411E67CA /* Cocoa.framework in Frameworks */,
+				90E737D46CF39B06FCC7E1820BAF62AF /* AppKit.framework in Frameworks */,
+				429827F0CE1E8D9E5DDF76A3C53A6B21 /* Cocoa.framework in Frameworks */,
+				6C4703BC7103FB9E244BDB7810B7B2F2 /* FootlessParser.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8F7038E1BF3B3249D1F64D0A5018A6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7160544EF68C0D673357F24856D16FF8 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		083D835724FE6BFD7A0A6C237DD7DDA7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B79AEA76BE6E2883DA4738C256574B04 /* Info.plist */,
+				31C8B0474F4B1F8BC4BB76F022C95136 /* ※ikemen.modulemap */,
+				19323DFB5A464A9E1929DA10C2EF9BFA /* ※ikemen.xcconfig */,
+				E79DC8F80CB8942DFD1ABA8CD6B9FA4E /* ※ikemen-dummy.m */,
+				21773791AC056C0FCD067C9D7DDDDB62 /* ※ikemen-prefix.pch */,
+				F9A29BA8998F3B16318DE77319B761BD /* ※ikemen-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/※ikemen";
+			sourceTree = "<group>";
+		};
+		0C3A1A808C47C32E376BBBA5BE9BD698 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				45A44A3950ACF87EBE91890AA07F702D /* AppKit.framework */,
+				BC47EF3BDD0935CD5326BA1796F0D7ED /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
 		3737CC3F380409477994E5347EB0761C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,12 +252,14 @@
 			path = YesBDTime/Classes;
 			sourceTree = "<group>";
 		};
-		39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */ = {
+		42E91C57DF0FE9DA859412BBC84857D3 /* ※ikemen */ = {
 			isa = PBXGroup;
 			children = (
-				FA7AC8429882A95AA0810A9DCDED54FF /* OS X */,
+				88ECEEF08F07A59A7EE45A956099F21B /* ※ikemen.swift */,
+				083D835724FE6BFD7A0A6C237DD7DDA7 /* Support Files */,
 			);
-			name = Frameworks;
+			name = "※ikemen";
+			path = "※ikemen";
 			sourceTree = "<group>";
 		};
 		4BF1D2F390749CF8B3F7431BEFBFDF1A /* Targets Support Files */ = {
@@ -146,25 +281,90 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
+		781B466D0E1E8D8C0DB4924444879653 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D93FD1E0E69C01B30C1F3DB64E767F54 /* FootlessParser.framework */,
+				1DD12D50034509A27ECF169131B2F502 /* Ikemen.framework */,
+				9685303AF951898B3E738BCA84E86B7A /* NorthLayout.framework */,
+				783694A48D46952E12C030C818A18128 /* Pods_YesBDTime_Example.framework */,
+				C5814F9D83845AE9B47DCB3777C8AA79 /* Pods_YesBDTime_Tests.framework */,
+				DF1BA29B961A925BA661F13398167589 /* YesBDTime.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				F01651FF889B622B39D948142DEB5143 /* Development Pods */,
-				39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */,
-				93FD7926C659B450533DBC7BE36217E2 /* Products */,
+				AD7986115D507C86C2F611AC11F9EED4 /* Frameworks */,
+				A8B1F0883BDF7362D0A191E74720D126 /* Pods */,
+				781B466D0E1E8D8C0DB4924444879653 /* Products */,
 				4BF1D2F390749CF8B3F7431BEFBFDF1A /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		93FD7926C659B450533DBC7BE36217E2 /* Products */ = {
+		9A4EA01E0E5995C7D3AFF285F6DB764F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4CEFE785E652FDA85B947D81441C41DC /* Pods_YesBDTime_Example.framework */,
-				5D4FE509234508014F5D1604267809C6 /* Pods_YesBDTime_Tests.framework */,
-				0A683E7CACC7BDBE87150031BD35CE3B /* YesBDTime.framework */,
+				26348CD99712D47C0A12938A9EF6EC02 /* Info.plist */,
+				294ECF44ACF46E0A3B0807619CCE97FC /* NorthLayout.modulemap */,
+				239227E4DDB99A21F431ED8ADC39F526 /* NorthLayout.xcconfig */,
+				34BA09D312D36B945DFBFBC66A04F2D2 /* NorthLayout-dummy.m */,
+				7579FA4309A2427387C6AD84A4C4ABA2 /* NorthLayout-prefix.pch */,
+				5B79AF8F2ED05E8DE02E66436DD6A94B /* NorthLayout-umbrella.h */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "../Target Support Files/NorthLayout";
+			sourceTree = "<group>";
+		};
+		9F9F305CB2D1154F841E825B47C1F10A /* NorthLayout */ = {
+			isa = PBXGroup;
+			children = (
+				2786E2D123A0B62D4AB27C9252C37EA6 /* NorthLayout.swift */,
+				0539B632789C5696D6F4422368015555 /* VFL.swift */,
+				854768F199A84EA8E57976C9B488BC5D /* VFLSyntax.swift */,
+				9A4EA01E0E5995C7D3AFF285F6DB764F /* Support Files */,
+			);
+			name = NorthLayout;
+			path = NorthLayout;
+			sourceTree = "<group>";
+		};
+		A8B1F0883BDF7362D0A191E74720D126 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5388B8085D9E3E4568F56D08370504A /* FootlessParser */,
+				9F9F305CB2D1154F841E825B47C1F10A /* NorthLayout */,
+				42E91C57DF0FE9DA859412BBC84857D3 /* ※ikemen */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AD7986115D507C86C2F611AC11F9EED4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7735F44F755DEB738A94EDF7C8DB3459 /* FootlessParser.framework */,
+				0C3A1A808C47C32E376BBBA5BE9BD698 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5388B8085D9E3E4568F56D08370504A /* FootlessParser */ = {
+			isa = PBXGroup;
+			children = (
+				F41560E2D54B30298215FDA448D1C0DE /* Converters.swift */,
+				C0495F6C5905B660714BD46BA5281CA4 /* Error.swift */,
+				C2BF3A622813959BD71C2E78E3D2D0FC /* Extensions.swift */,
+				9871B6CE120F07DE415474C56F30B643 /* Parser.swift */,
+				07411B20B70FB154AA9281A24E9D465F /* Parser+Operators.swift */,
+				AEA795787256F180ABCD766365BCF1C0 /* Parsers.swift */,
+				DE4C18D4B895C43FEBFE59F0A8C0C40B /* StringParser.swift */,
+				DA1DBDD8AFD1CD32A5880C954FDC627E /* Support Files */,
+			);
+			name = FootlessParser;
+			path = FootlessParser;
 			sourceTree = "<group>";
 		};
 		C22C0DBC3CF01BCDEB8EA4642E0916B6 /* Support Files */ = {
@@ -211,6 +411,20 @@
 			path = "Target Support Files/Pods-YesBDTime_Tests";
 			sourceTree = "<group>";
 		};
+		DA1DBDD8AFD1CD32A5880C954FDC627E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E961F09431808E9C039C43E3A6E1620 /* FootlessParser.modulemap */,
+				A0CF6119B87FCCD2E20A985C018BD87D /* FootlessParser.xcconfig */,
+				80E9B38BB27EA67F08D7A2FCC770A2E5 /* FootlessParser-dummy.m */,
+				5BF56E4FDD044CDC6C9DC38E9697DBA4 /* FootlessParser-prefix.pch */,
+				135E93C704F41CA712BB8D39EB4B08E5 /* FootlessParser-umbrella.h */,
+				9A2814B4881FE7BA4A9D8330D8D663EC /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FootlessParser";
+			sourceTree = "<group>";
+		};
 		EAC61FE217AFEB580EB59FA03F961552 /* Pods-YesBDTime_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -237,30 +451,38 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		FA7AC8429882A95AA0810A9DCDED54FF /* OS X */ = {
-			isa = PBXGroup;
-			children = (
-				DF428FC7C7A6555B2B02D8E238C8D8F2 /* Cocoa.framework */,
-			);
-			name = "OS X";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0BC9CCABE1267F8FFD4EB7FB54989C9F /* Headers */ = {
+		3722B3F1AD1BFDA78E3ADFBAC3C0632A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E187E2405E4250B0D6261A16E6399372 /* Pods-YesBDTime_Example-umbrella.h in Headers */,
+				EF51E97FC9124894BBDDC4016C68FA5D /* ※ikemen-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		61A4A58298F9F3C8F116032112521435 /* Headers */ = {
+		70770642385C4FB8B9A9944F9F71C1CA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DD8C33B6F89415445BC44FFF5F08DE8 /* YesBDTime-umbrella.h in Headers */,
+				F9395AACECF6102CB1E5BD151D86917F /* Pods-YesBDTime_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		852B996404F126BFDE4E2A4F0B9AC0FA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8946E8AED36136A3BA901326FE3985B6 /* NorthLayout-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8650457FD016F9E9C6F62CCF1ACB1677 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C207879D202DB6731B4B49D23E78E4B7 /* YesBDTime-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,9 +494,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ED68B5E05EF9C5209CC1B4DC766119B8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3694545DA633184651B2A13D24AD36D1 /* FootlessParser-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		03CB2FA2A794B9723FAA69FED8F6A518 /* YesBDTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3390077337FB772089DCA45AA34AEBE4 /* Build configuration list for PBXNativeTarget "YesBDTime" */;
+			buildPhases = (
+				89C8402FA394F1EFE55CF19CA406DBEF /* Sources */,
+				D8F7038E1BF3B3249D1F64D0A5018A6D /* Frameworks */,
+				8650457FD016F9E9C6F62CCF1ACB1677 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YesBDTime;
+			productName = YesBDTime;
+			productReference = DF1BA29B961A925BA661F13398167589 /* YesBDTime.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		09E6DA3EA133A7B74401F8E518EDE86A /* FootlessParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88A7646A107A0C68D3519EF607EC4B92 /* Build configuration list for PBXNativeTarget "FootlessParser" */;
+			buildPhases = (
+				83DAB898263A475C5372824052DEAFE7 /* Sources */,
+				1A4EE0FB6194AD91A5308A5F22B23241 /* Frameworks */,
+				ED68B5E05EF9C5209CC1B4DC766119B8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FootlessParser;
+			productName = FootlessParser;
+			productReference = D93FD1E0E69C01B30C1F3DB64E767F54 /* FootlessParser.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		0EFFC42CF3F29B440C98AD84FF1E3890 /* Pods-YesBDTime_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3FEA13071C7C7C788BF966654525B462 /* Build configuration list for PBXNativeTarget "Pods-YesBDTime_Tests" */;
@@ -290,42 +554,63 @@
 			);
 			name = "Pods-YesBDTime_Tests";
 			productName = "Pods-YesBDTime_Tests";
-			productReference = 5D4FE509234508014F5D1604267809C6 /* Pods_YesBDTime_Tests.framework */;
+			productReference = C5814F9D83845AE9B47DCB3777C8AA79 /* Pods_YesBDTime_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		72B0376CBF879D216B52362171D124E7 /* Pods-YesBDTime_Example */ = {
+		1D5FC7CF0468DB9D3C79D05443252DBC /* ※ikemen */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 15BFAD186FA4F87934B915DBE346B10C /* Build configuration list for PBXNativeTarget "Pods-YesBDTime_Example" */;
+			buildConfigurationList = 2BFB9FE412DFA28F22DF1C8CFAB02C4E /* Build configuration list for PBXNativeTarget "※ikemen" */;
 			buildPhases = (
-				7D92E6CE952DC5371FE754D213A09D75 /* Sources */,
-				680D27D2252D7E416E1E0092181743FC /* Frameworks */,
-				0BC9CCABE1267F8FFD4EB7FB54989C9F /* Headers */,
+				6A3537B9402826241A3D9B8590943FFF /* Sources */,
+				81AB02E1C5B69B9E6A29E62AA07A1EEC /* Frameworks */,
+				3722B3F1AD1BFDA78E3ADFBAC3C0632A /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EDBB5987B40C624FD2AC1287646F8969 /* PBXTargetDependency */,
+			);
+			name = "※ikemen";
+			productName = "※ikemen";
+			productReference = 1DD12D50034509A27ECF169131B2F502 /* Ikemen.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CD0DA11D65C70689360C1734E766BBDB /* Pods-YesBDTime_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08E55C84FACD7157A6C2FC324CBB9E3D /* Build configuration list for PBXNativeTarget "Pods-YesBDTime_Example" */;
+			buildPhases = (
+				7F1C3CF23CBEA9BA2BCD4AC81389E1E7 /* Sources */,
+				264A4B1EA365D7F142E76D1ABCCA4FA9 /* Frameworks */,
+				70770642385C4FB8B9A9944F9F71C1CA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				661008F31DDE925E0383399D567C097B /* PBXTargetDependency */,
+				3DE2CAA21BD3EB50DBB10A8E24984C0E /* PBXTargetDependency */,
+				8646D44A877658559FF77AC4785A309B /* PBXTargetDependency */,
+				2431814FBA10E7B421E33252D3B2B6F2 /* PBXTargetDependency */,
 			);
 			name = "Pods-YesBDTime_Example";
 			productName = "Pods-YesBDTime_Example";
-			productReference = 4CEFE785E652FDA85B947D81441C41DC /* Pods_YesBDTime_Example.framework */;
+			productReference = 783694A48D46952E12C030C818A18128 /* Pods_YesBDTime_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C3555392753981C44EA3A30A90C4FC4B /* YesBDTime */ = {
+		D671F5CDBECD38A7172F35C27C579D8A /* NorthLayout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9FF18401BE7B719E77FBA4CAB872BCA7 /* Build configuration list for PBXNativeTarget "YesBDTime" */;
+			buildConfigurationList = 21695385F63F1D7233E644524C73CB1B /* Build configuration list for PBXNativeTarget "NorthLayout" */;
 			buildPhases = (
-				DB93D1519FFF148D5DE5CD35CF7D5A03 /* Sources */,
-				A22B43F8A21A1ECF2AE7CC35DA31A782 /* Frameworks */,
-				61A4A58298F9F3C8F116032112521435 /* Headers */,
+				1551C17EB47542D8EA17A2397E6CA96B /* Sources */,
+				C96B2557BEDB1E61F07FA2456570217E /* Frameworks */,
+				852B996404F126BFDE4E2A4F0B9AC0FA /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				214911D266803434EABB3C6A62AAE40D /* PBXTargetDependency */,
 			);
-			name = YesBDTime;
-			productName = YesBDTime;
-			productReference = 0A683E7CACC7BDBE87150031BD35CE3B /* YesBDTime.framework */;
+			name = NorthLayout;
+			productName = NorthLayout;
+			productReference = 9685303AF951898B3E738BCA84E86B7A /* NorthLayout.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -345,13 +630,16 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 93FD7926C659B450533DBC7BE36217E2 /* Products */;
+			productRefGroup = 781B466D0E1E8D8C0DB4924444879653 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				72B0376CBF879D216B52362171D124E7 /* Pods-YesBDTime_Example */,
+				09E6DA3EA133A7B74401F8E518EDE86A /* FootlessParser */,
+				D671F5CDBECD38A7172F35C27C579D8A /* NorthLayout */,
+				CD0DA11D65C70689360C1734E766BBDB /* Pods-YesBDTime_Example */,
 				0EFFC42CF3F29B440C98AD84FF1E3890 /* Pods-YesBDTime_Tests */,
-				C3555392753981C44EA3A30A90C4FC4B /* YesBDTime */,
+				03CB2FA2A794B9723FAA69FED8F6A518 /* YesBDTime */,
+				1D5FC7CF0468DB9D3C79D05443252DBC /* ※ikemen */,
 			);
 		};
 /* End PBXProject section */
@@ -365,45 +653,209 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7D92E6CE952DC5371FE754D213A09D75 /* Sources */ = {
+		1551C17EB47542D8EA17A2397E6CA96B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6959D9840508A1FB85C603E9FAB41A9C /* Pods-YesBDTime_Example-dummy.m in Sources */,
+				E0CF6C7339E2A9BEEBED00DA0F1A1EBE /* NorthLayout-dummy.m in Sources */,
+				E98A2DDEA8E3192B2CAEA3B7E9324D35 /* NorthLayout.swift in Sources */,
+				3BEB48ED8E5E59120E403630045133AE /* VFL.swift in Sources */,
+				3C824AAD47DD1B4E9653FBB883288578 /* VFLSyntax.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DB93D1519FFF148D5DE5CD35CF7D5A03 /* Sources */ = {
+		6A3537B9402826241A3D9B8590943FFF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A9601132849EA381043EF0E4780533B /* MNIST.mlmodel in Sources */,
-				9B0ABF2E080211771BF3E179702F4CFE /* OCR.swift in Sources */,
-				5B8D32329E697B65719B3DE6EF83D287 /* TargetWindow.swift in Sources */,
-				7A012B279B99E15F14C5ECC02A90ADA5 /* YesBDTime-dummy.m in Sources */,
-				1392121C3A28909BD3CB87BFC8C0F122 /* YesBDTime.swift in Sources */,
+				E99C01600F0C142683ABCBB3D4AC3FE2 /* ※ikemen-dummy.m in Sources */,
+				841E1DC0AEEFD54D592A5BC968378A67 /* ※ikemen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F1C3CF23CBEA9BA2BCD4AC81389E1E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF3E0BFEEF9B93EC0824F90FA1106275 /* Pods-YesBDTime_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83DAB898263A475C5372824052DEAFE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61F14FEA460569404901468E0040F53 /* Converters.swift in Sources */,
+				218C563C127CA329C51D30F1504B34B8 /* Error.swift in Sources */,
+				D38A0B8117A934F8D7F617C7F2B9BA06 /* Extensions.swift in Sources */,
+				84F742B9A656D57C804ED429BAB3CD1A /* FootlessParser-dummy.m in Sources */,
+				F0CF770305C89D07CD455A17B9AA2798 /* Parser+Operators.swift in Sources */,
+				71015FA498F02B91065BA59B160FAA82 /* Parser.swift in Sources */,
+				5679B7449F93DFFAB88F3E56E02E8A4A /* Parsers.swift in Sources */,
+				8650589654010D4EDDFD7441180A8B38 /* StringParser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89C8402FA394F1EFE55CF19CA406DBEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91879A76B83553B65797F904A306F8C9 /* MNIST.mlmodel in Sources */,
+				BDC5587D8848339109771C7F297AA2FE /* OCR.swift in Sources */,
+				42C65CDC404C38C10ED2E07408833AA5 /* TargetWindow.swift in Sources */,
+				F3300BD655C8B7F398C1DD7C0526B638 /* YesBDTime-dummy.m in Sources */,
+				8BE9198E3040844F42D7DCBA0595F387 /* YesBDTime.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		214911D266803434EABB3C6A62AAE40D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FootlessParser;
+			target = 09E6DA3EA133A7B74401F8E518EDE86A /* FootlessParser */;
+			targetProxy = 651B2196866C7A2EFFF54F5654DCBCFF /* PBXContainerItemProxy */;
+		};
+		2431814FBA10E7B421E33252D3B2B6F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "※ikemen";
+			target = 1D5FC7CF0468DB9D3C79D05443252DBC /* ※ikemen */;
+			targetProxy = 69877028176B9F85D15975667D8CE4C3 /* PBXContainerItemProxy */;
+		};
+		3DE2CAA21BD3EB50DBB10A8E24984C0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NorthLayout;
+			target = D671F5CDBECD38A7172F35C27C579D8A /* NorthLayout */;
+			targetProxy = 176FBDC7FB6CC7F23AFCA21FAE97E95D /* PBXContainerItemProxy */;
+		};
 		49004CC896D56886F1DD32494E9A5A0E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-YesBDTime_Example";
-			target = 72B0376CBF879D216B52362171D124E7 /* Pods-YesBDTime_Example */;
+			target = CD0DA11D65C70689360C1734E766BBDB /* Pods-YesBDTime_Example */;
 			targetProxy = 35A627DA7BB3F83884F6901796D36A8C /* PBXContainerItemProxy */;
 		};
-		EDBB5987B40C624FD2AC1287646F8969 /* PBXTargetDependency */ = {
+		661008F31DDE925E0383399D567C097B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FootlessParser;
+			target = 09E6DA3EA133A7B74401F8E518EDE86A /* FootlessParser */;
+			targetProxy = 59DF529869865A5D91A1EB0603EBADD6 /* PBXContainerItemProxy */;
+		};
+		8646D44A877658559FF77AC4785A309B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = YesBDTime;
-			target = C3555392753981C44EA3A30A90C4FC4B /* YesBDTime */;
-			targetProxy = DF3EEBCA272BCA7106314FC6940D11EF /* PBXContainerItemProxy */;
+			target = 03CB2FA2A794B9723FAA69FED8F6A518 /* YesBDTime */;
+			targetProxy = 4625E7F9D0171D6B54F53CCD3F6EEE43 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		161DC6FAC6A7D3D593E40BA0A9274210 /* Debug */ = {
+		0A2DC6CE4678E316EC62BEB3905F2E5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 442C529B5EBD71FC60A1032333A3229C /* Pods-YesBDTime_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-YesBDTime_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-YesBDTime_Example/Pods-YesBDTime_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1DA49482A5FB61A5F24F3E89EA353315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19323DFB5A464A9E1929DA10C2EF9BFA /* ※ikemen.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/※ikemen/※ikemen-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/※ikemen/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/※ikemen/※ikemen.modulemap";
+				PRODUCT_MODULE_NAME = Ikemen;
+				PRODUCT_NAME = Ikemen;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		27F4FCCE4C781F3BA672BC97A5B98314 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 239227E4DDB99A21F431ED8ADC39F526 /* NorthLayout.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/NorthLayout/NorthLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NorthLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/NorthLayout/NorthLayout.modulemap";
+				PRODUCT_MODULE_NAME = NorthLayout;
+				PRODUCT_NAME = NorthLayout;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2B8AB8E460F6D7AFD7EBC14404E908F0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 69BBA27433421C41735FC88BBEC78202 /* YesBDTime.xcconfig */;
 			buildSettings = {
@@ -430,12 +882,12 @@
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		538720484F276FEFCCA59468B1A87A32 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -467,6 +919,76 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6127593AA524A77596FD44A934E6F01E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0CF6119B87FCCD2E20A985C018BD87D /* FootlessParser.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/FootlessParser/FootlessParser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FootlessParser/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/FootlessParser/FootlessParser.modulemap";
+				PRODUCT_MODULE_NAME = FootlessParser;
+				PRODUCT_NAME = FootlessParser;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		87F95D2271AC18C17DECA176DA4BC4D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35F20020105BA163A75E531306216F30 /* Pods-YesBDTime_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-YesBDTime_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-YesBDTime_Example/Pods-YesBDTime_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -535,11 +1057,10 @@
 			};
 			name = Debug;
 		};
-		9DB8383E84E730DBD9B2C3D4D0FF3FC6 /* Debug */ = {
+		8C7E73688BC6E8435E14CFF3BCB7EE0E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 442C529B5EBD71FC60A1032333A3229C /* Pods-YesBDTime_Example.debug.xcconfig */;
+			baseConfigurationReference = A0CF6119B87FCCD2E20A985C018BD87D /* FootlessParser.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -552,27 +1073,59 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-YesBDTime_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/FootlessParser/FootlessParser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FootlessParser/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MODULEMAP_FILE = "Target Support Files/Pods-YesBDTime_Example/Pods-YesBDTime_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/FootlessParser/FootlessParser.modulemap";
+				PRODUCT_MODULE_NAME = FootlessParser;
+				PRODUCT_NAME = FootlessParser;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		AD0FC50D8F9D0F62445060E15A8CC4AE /* Release */ = {
+		D751624410109BA365BDB0D092B3028B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 239227E4DDB99A21F431ED8ADC39F526 /* NorthLayout.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/NorthLayout/NorthLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NorthLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/NorthLayout/NorthLayout.modulemap";
+				PRODUCT_MODULE_NAME = NorthLayout;
+				PRODUCT_NAME = NorthLayout;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4587A6D7E5B1DAB08ECADBDF228DD02 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 69BBA27433421C41735FC88BBEC78202 /* YesBDTime.xcconfig */;
 			buildSettings = {
@@ -599,48 +1152,12 @@
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
-		};
-		D507B9042492770401C4478D883DCF03 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35F20020105BA163A75E531306216F30 /* Pods-YesBDTime_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-YesBDTime_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MODULEMAP_FILE = "Target Support Files/Pods-YesBDTime_Example/Pods-YesBDTime_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
+			name = Debug;
 		};
 		E574923E2959CFEF4FEBC7B272DBC6AD /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -700,6 +1217,40 @@
 			};
 			name = Release;
 		};
+		E82B14F6850436C7488B9E6994543F09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19323DFB5A464A9E1929DA10C2EF9BFA /* ※ikemen.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/※ikemen/※ikemen-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/※ikemen/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/※ikemen/※ikemen.modulemap";
+				PRODUCT_MODULE_NAME = Ikemen;
+				PRODUCT_NAME = Ikemen;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		EBA1314F642A52B0507349BDE7D81B7F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F59D4FC795B1A0B664A97246354EA7B9 /* Pods-YesBDTime_Tests.debug.xcconfig */;
@@ -738,11 +1289,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		15BFAD186FA4F87934B915DBE346B10C /* Build configuration list for PBXNativeTarget "Pods-YesBDTime_Example" */ = {
+		08E55C84FACD7157A6C2FC324CBB9E3D /* Build configuration list for PBXNativeTarget "Pods-YesBDTime_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9DB8383E84E730DBD9B2C3D4D0FF3FC6 /* Debug */,
-				D507B9042492770401C4478D883DCF03 /* Release */,
+				0A2DC6CE4678E316EC62BEB3905F2E5B /* Debug */,
+				87F95D2271AC18C17DECA176DA4BC4D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21695385F63F1D7233E644524C73CB1B /* Build configuration list for PBXNativeTarget "NorthLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27F4FCCE4C781F3BA672BC97A5B98314 /* Debug */,
+				D751624410109BA365BDB0D092B3028B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BFB9FE412DFA28F22DF1C8CFAB02C4E /* Build configuration list for PBXNativeTarget "※ikemen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E82B14F6850436C7488B9E6994543F09 /* Debug */,
+				1DA49482A5FB61A5F24F3E89EA353315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -756,6 +1325,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		3390077337FB772089DCA45AA34AEBE4 /* Build configuration list for PBXNativeTarget "YesBDTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4587A6D7E5B1DAB08ECADBDF228DD02 /* Debug */,
+				2B8AB8E460F6D7AFD7EBC14404E908F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		3FEA13071C7C7C788BF966654525B462 /* Build configuration list for PBXNativeTarget "Pods-YesBDTime_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -765,11 +1343,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9FF18401BE7B719E77FBA4CAB872BCA7 /* Build configuration list for PBXNativeTarget "YesBDTime" */ = {
+		88A7646A107A0C68D3519EF607EC4B92 /* Build configuration list for PBXNativeTarget "FootlessParser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				161DC6FAC6A7D3D593E40BA0A9274210 /* Debug */,
-				AD0FC50D8F9D0F62445060E15A8CC4AE /* Release */,
+				8C7E73688BC6E8435E14CFF3BCB7EE0E /* Debug */,
+				6127593AA524A77596FD44A934E6F01E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

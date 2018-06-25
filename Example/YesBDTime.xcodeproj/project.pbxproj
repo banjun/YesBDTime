@@ -267,11 +267,17 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-YesBDTime_Example/Pods-YesBDTime_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FootlessParser/FootlessParser.framework",
+				"${BUILT_PRODUCTS_DIR}/NorthLayout/NorthLayout.framework",
 				"${BUILT_PRODUCTS_DIR}/YesBDTime/YesBDTime.framework",
+				"${BUILT_PRODUCTS_DIR}/※ikemen/Ikemen.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FootlessParser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NorthLayout.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YesBDTime.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Ikemen.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
