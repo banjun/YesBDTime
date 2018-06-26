@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'YesBDTime'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'Get current time of Blu-ray Player'
   s.description      = <<-DESC
   Get current time of Blu-ray Player by M@GIC☆
