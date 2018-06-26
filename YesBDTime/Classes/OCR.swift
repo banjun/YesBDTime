@@ -25,7 +25,10 @@ internal func ocr(image: NSImage, callback: @escaping (TimeInterval) -> (), debu
                         height: size.height), operation: .copy, fraction: 1)
                     image.unlockFocus()
 
-                    let prediction = try BDDigitsClassifier().prediction(input: BDDigitsClassifierInput(image: image.pixelBuffer(width: 227, height: 227)!))
+                    let pixelBuffer = image.pixelBuffer(width: 227, height: 227)!
+//                    let ciImage = CIImage(cvImageBuffer: pixelBuffer)
+//                    let nsImage = NSImage(cgImage: CIContext().createCGImage(ciImage, from: ciImage.extent)!, size: CGSize(width: 227, height: 227))
+                    let prediction = try BDDigitsClassifier().prediction(input: BDDigitsClassifierInput(image: pixelBuffer))
                     //                        NSLog("%@", "\(prediction.classLabel)   \(prediction.prediction[prediction.classLabel])")
                     return (CGRect(x: box.topLeft.x,
                                    y: box.topLeft.y,
@@ -74,7 +77,7 @@ extension NSImage {
         CVPixelBufferLockBaseAddress(resultPixelBuffer, CVPixelBufferLockFlags(rawValue: 0))
         let pixelData = CVPixelBufferGetBaseAddress(resultPixelBuffer)
 
-        let colorspace = CGColorSpaceCreateDeviceRGB()
+        let colorspace = NSColorSpace.genericRGB.cgColorSpace!
         guard let context = CGContext(data: pixelData,
                                       width: Int(width),
                                       height: Int(height),
@@ -88,6 +91,7 @@ extension NSImage {
 
         let graphicsContext = NSGraphicsContext(cgContext: context, flipped: false)
         NSGraphicsContext.saveGraphicsState()
+        graphicsContext.imageInterpolation = .none
         NSGraphicsContext.current = graphicsContext
         draw(in: CGRect(x: 0, y: 0, width: width, height: height))
         NSGraphicsContext.restoreGraphicsState()
