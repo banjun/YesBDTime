@@ -1,16 +1,31 @@
 PODS:
+  - FootlessParser (0.5.0)
+  - NorthLayout (5.1.0):
+    - FootlessParser (~> 0.4)
   - YesBDTime (0.1.0)
+  - "※ikemen (0.5.0)"
 
 DEPENDENCIES:
+  - NorthLayout
   - YesBDTime (from `../`)
+  - "※ikemen"
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FootlessParser
+    - NorthLayout
+    - "※ikemen"
 
 EXTERNAL SOURCES:
   YesBDTime:
     :path: "../"
 
 SPEC CHECKSUMS:
+  FootlessParser: bc75547b0ccd696a0496993f394fdef3a2d481d0
+  NorthLayout: 157045b4ef9e94019f00ec9dc66192c2b17c0c61
   YesBDTime: 6a2bb85c7c442810b0c8e69c6362ccf18a920c52
+  "※ikemen": 0cf85af52790db21a846ad31abca356e99da1ffb
 
-PODFILE CHECKSUM: f480b11337e5e01b74efc800ad5ac1354974ed72
+PODFILE CHECKSUM: 7622a784e9c88bd89dc0f14298d4b15995a9ac97
 
 COCOAPODS: 1.5.3

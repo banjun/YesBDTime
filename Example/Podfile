@@ -3,6 +3,8 @@ platform :osx, '10.13'
 
 target 'YesBDTime_Example' do
   pod 'YesBDTime', :path => '../'
+  pod 'NorthLayout'
+  pod '※ikemen'
 
   target 'YesBDTime_Tests' do
     inherit! :search_paths

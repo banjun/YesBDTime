@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		37C3B058DDA6E2CC3B9E4CD5 /* Pods_YesBDTime_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DDD29D5F2B93A23A2CBD7C6 /* Pods_YesBDTime_Tests.framework */; };
 		82C77CDA0974702AC8038A73 /* Pods_YesBDTime_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3FEE5A5ABF336FD04001C26 /* Pods_YesBDTime_Example.framework */; };
+		EA03E24C20E123A9007F69E2 /* DebugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA03E24B20E123A9007F69E2 /* DebugView.swift */; };
 		ED83F67C20348A760038D96B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED83F67B20348A760038D96B /* AppDelegate.swift */; };
 		ED83F67E20348A760038D96B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED83F67D20348A760038D96B /* ViewController.swift */; };
 		ED83F68020348A760038D96B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED83F67F20348A760038D96B /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 		C3E9750AD2FF463E791D7266 /* Pods-YesBDTime_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YesBDTime_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YesBDTime_Example/Pods-YesBDTime_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CA1ABDB24598EEC4F71E4952 /* Pods-YesBDTime_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YesBDTime_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YesBDTime_Tests/Pods-YesBDTime_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D3FEE5A5ABF336FD04001C26 /* Pods_YesBDTime_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YesBDTime_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA03E24B20E123A9007F69E2 /* DebugView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugView.swift; sourceTree = "<group>"; };
 		ED83F67820348A760038D96B /* YesBDTime_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YesBDTime_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED83F67B20348A760038D96B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED83F67D20348A760038D96B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 			children = (
 				ED83F67B20348A760038D96B /* AppDelegate.swift */,
 				ED83F67D20348A760038D96B /* ViewController.swift */,
+				EA03E24B20E123A9007F69E2 /* DebugView.swift */,
 				ED83F67F20348A760038D96B /* Assets.xcassets */,
 				ED83F68120348A760038D96B /* Main.storyboard */,
 				ED83F68420348A760038D96B /* Info.plist */,
@@ -267,11 +270,17 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-YesBDTime_Example/Pods-YesBDTime_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FootlessParser/FootlessParser.framework",
+				"${BUILT_PRODUCTS_DIR}/NorthLayout/NorthLayout.framework",
 				"${BUILT_PRODUCTS_DIR}/YesBDTime/YesBDTime.framework",
+				"${BUILT_PRODUCTS_DIR}/※ikemen/Ikemen.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FootlessParser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NorthLayout.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YesBDTime.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Ikemen.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -303,6 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA03E24C20E123A9007F69E2 /* DebugView.swift in Sources */,
 				ED83F67E20348A760038D96B /* ViewController.swift in Sources */,
 				ED83F67C20348A760038D96B /* AppDelegate.swift in Sources */,
 			);

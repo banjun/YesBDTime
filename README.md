@@ -19,7 +19,7 @@ ybt.capture(repeatedlyWith: 1)
 ## Installation
 
 ```ruby
-pod 'YesBDTime' # with repo specifier
+pod 'YesBDTime'
 ```
 
 ## Author
@@ -28,6 +28,4 @@ banjun
 
 ## License
 
-YesBDTime is available under the MIT license. See the LICENSE file for more info.  
-
-MNIST coreml model is authored by Philipp Gabriel and is available under the MIT license. <https://github.com/likedan/Awesome-CoreML-Models>
+YesBDTime is available under the MIT license. See the LICENSE file for more info.
